@@ -266,7 +266,7 @@ header nav a{
     width: 50%;
 
  }
- input{
+ .mini_landing input{
     height: 3.7rem;
     width: 100%;
     padding: 1rem;
@@ -739,30 +739,43 @@ color: #333;
 .footer-section ul li a:hover {
     text-decoration: underline;
 }
-.subscribe {
+.subscribe,.apps,.social {
     margin-top: 20px;
+    border-bottom: 0;
+}
+.subscribe h3{
+    margin-bottom: 0;
+}
+.subscribe p,
+.social p,
+.apps p{
+    margin-bottom: 2rem;
+    color: rgb(159, 159, 159);
+    font-size: 15px;
+
+}
+.subscribe p a{
+    color: rgb(159, 159, 159);
+    text-decoration: underline;
+    font-size: 15px;
 }
 .subscribe input[type="email"] {
-    padding: 10px;
-    width: 70%;
-    border: none;
-    margin-right: 10px;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 12rem;
 }
 .subscribe input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #0070c9;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-.apps {
-    margin-top: 20px;
+    height: 2.5rem;
+    width: 6.5rem;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 5px;
 }
 .apps img {
     margin-right: 10px;
-}
-.social {
-    margin-top: 20px;
 }
 .social img {
     margin-right: 10px;
