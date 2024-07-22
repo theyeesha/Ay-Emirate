@@ -432,3 +432,69 @@ color: #333;
 .dest-btn:hover{
     box-shadow: 0px 10px 10px rgb(220, 220, 220);
 }
+
+.offers{
+    height: 65vh;
+    margin-bottom: 10rem;
+    width: 100%;
+    background-image: url(/images/students-walking-though-university-hall-w1920x480.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.offer-txt{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    }
+
+.special{
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 5.7rem;
+    letter-spacing: .2rem;
+    line-height: 0.2rem;
+    color: #fff;
+    opacity: .69;
+    text-shadow: .1rem .1rem 0 rgba(0, 0, 0, .5);
+}
+
+.offer-p{
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 15px;
+    line-height: 1.61rem;
+    font-weight: 200;
+    color: #fff;
+    margin: 0;
+    line-height: 2rem;
+}
+.offer-h{
+    font-family: Emirates-Bold, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 45px;
+    line-height: 5.75rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    line-height: 6rem;
+    color: #fff;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.btn{
+    width: 100%;
+    height: 30%;
+    padding-top: 2rem;
+}
+.btn a{
+    padding: 0.7rem 1.7rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 5px;
+} 
