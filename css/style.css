@@ -709,15 +709,18 @@ color: #333;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    padding-inline: 4rem;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .footer-section {
     flex: 1 1 200px;
     margin: 10px;
+    border-bottom: 1px solid grey;
 }
 .footer-section h3 {
-    font-size: 16px;
+    font-size: 20px;
+    color: #fff;
     margin-bottom: 10px;
 }
 .footer-section ul {
@@ -728,8 +731,10 @@ color: #333;
     margin-bottom: 8px;
 }
 .footer-section ul li a {
-    color: #ffffff;
+    color: rgb(159, 159, 159);
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }
 .footer-section ul li a:hover {
     text-decoration: underline;
