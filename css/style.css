@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*GENERAL RESET*/
+img{
+    height: auto;
+}
+body{
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.overlay{
+    border-image-source: linear-gradient(
+        hsla(0, 0%, 0%, 0.48) , 
+        hsla(0, 0%, 0%, 0.4));
+    border-image-slice: fill 1;
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.head{
+   
+    background-color: #FEF8D5;
+    padding-left: 100px;
+    list-style: none;
+    align-content: center;
+    height: 3rem;
+}
+
+.Important{
+    color: red;
+}
+.Important a{
+text-decoration: underline;
+color:#000;
+}
+
+.Important a:hover{
+    text-decoration: underline;
+    color:blue;
+    }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #363636;
+    height: 3.5rem;
+    align-items: center;
+    padding-inline: 15rem;
+}
+.logo{
+    background-color: #d71921;
+    height: 9rem;
+    width: 6rem;
+    margin-top: 5.5rem;
+    position: absolute;
+}
+.logo img{
+    width: 6rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 9rem;
+}
+
+header nav a{
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 14px ;
+    font-weight: 600;
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.call_to_action{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.call_to_action ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.call_to_action a{
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+#hero{
+    height: 150vh;
+}
+.back{
+    height: 67vh;
+    width: 100%;
+    background-image: url(/images/view-of-dubai-canal-at-sunset-hp-w1920x480.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.float{
+  width: 100%;
+  height: 15vh;
+}
+.float img{
+    width: 10rem;
+    float: right;
+    margin-right: 14rem;
+    margin-top: 1.5rem;
+}
+
+.text{
+    height: 43vh;
+    width: 45%;
+}
+.slant{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    font-family: Emirates-Bold, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    padding-left: 15rem;
+    transform: rotate(0deg) scale(1) skew(-13deg) translate(0);
+}
+.norm{
+    height: 13.7rem;
+    padding-top: 4rem;
+    padding-left: 15rem;
+}
+.hotel{
+    font-family: Heroic-Medium, Arial Narrow Bold, Franklin Gothic Medium, Franklin Gothic, Arial Narrow, HelveticaNeue, Helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    transform: rotate(0deg) scale(1) skew(-8deg) translate(0);
+    letter-spacing: -7px;
+    color: #fff;
+    word-spacing: -1px;
+    text-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .3);
+    display: block;
+    text-transform: uppercase;
+    }
+.hero__description{
+    color: #fff;
+    font-size: 2rem;
+    padding-right: .4rem;
+    padding-left: 2.2rem;
+    float: right;
+
+    }
+#hero button{
+    float: right;
+    width: 9.5rem;
+    height: 2.5rem;
+    background-color: #d71921;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+
+    }
+.travel-form{
+    height: 50vh;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    padding-inline: 13rem;
+    border-radius: 5%;
+}
+    
+.landing_form{
+    height: 17rem;
+    width: 100%;
+    align-items: center;
+    border-radius: ;
+    box-shadow: 0px 10px 10px rgb(220, 220, 220);
+
+}
+.form_nav{
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0 ;
+    border-bottom: 1px solid grey;
+}
+ .form_nav ul{
+    display: flex;
+    height: 3.5rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+ }
+ .form_nav li:first-child,
+ .form_nav li:last-child{
+    padding-inline: 4.5rem;
+ }
+ .form_nav li:nth-child(3){
+    padding-inline: 2.5rem;
+ }
+
+ .form_nav li{
+    height: 3.5rem;
+    width: 25%;
+    align-items: center;
+    padding-inline: 1rem;
+    display: flex;
+    border-left: 1px solid grey;
+ }
+ .form_nav ul a{
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  
+ }
+ .red{
+    border-bottom: 4px solid red;
+ }
+ .red:hover{
+    background-color: ;
+ }
+ .form_nav li:hover{
+   box-shadow: #363636;
+ }
+
+/* END OF FORM IN LANDING PAGE */
+
+
+ .form_body{
+    height: 13rem;
+    width: 100%;
+    padding: 1rem;  
+
+ }
+ h3{
+  font-size: 2rem;
+  padding-block: 1rem;
+  font-weight: 100;
+  margin-bottom: 2.5rem;
+ }
+ .mini_landing{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+    gap: 5%;
+ }
+ .from{
+    display: block;
+    font-size: 1.2rem;
+    width: 50%;
+ }
+ .to{
+    display: block;
+    font-size: 1.2rem;
+    width: 50%;
+
+ }
+ input{
+    height: 3.7rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    font-size: 0.95rem;
+ }
+ .mini_landing button{
+    height: 3.7rem;
+    width: 11.5rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    background: #d71921;
+ }
+ .form_body button a{
+    text-decoration: none;
+    color: white;
+ }
+ .form_body button a:hover{
+    color: black;
+ }
+ #hero button:hover{
+    background-color: rgb(197, 197, 197);
+    color: black; 
+}
+
+
+.choice{
+    height: 7.5rem;
+    width: 100%;
+    padding-inline: 10rem;
+
+
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 10px rgb(220, 220, 220);
+    border: 0.01px solid grey;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.box{
+    width: 12.5%;
+    height: 100%;
+    background-color: #fff;
+    border-right: 0.01px solid grey;
+    text-align: center;
+    align-items: center;
+    padding: 3rem 0rem;
+    cursor: pointer;
+    display: block;
+}
+.box li{
+    list-style: none;
+    
+}
+.box i{
+    color: grey;
+}
+.box a{
+    color: grey;
+    text-decoration: underline;
+}
+.box:hover{
+    color: #000;
+    border-bottom: 2px solid red;
+}
+.box li a:hover{
+    color: #000;
+}
+.choice img
+{
+    height: 5rem;
+    width: 100%;
+}
+
+
+
+.destination{
+    height: 140vh;
+    width: 100%;
+    padding-inline: 15rem;
+    text-align: center;
+}
+.destinationcard{
+    display: grid;
+    width: 100%;
+    height: 110vh;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;;
+}
+.card{
+    width: 100%;
+    height: 20rem;
+    box-shadow: 0px 10px 10px rgb(220, 220, 220);
+
+}
+.cardimg{
+    width: 100%;
+    height: 50%;
+}
+.cardtext{
+    height: 50%;
+    width: 100%;
+    padding: 1.5rem 7rem;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.thin{
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 12px;
+    line-height: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    margin: 0;
+}
+.city{
+    font-family: "Emirates-Bold", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size: 18px;
+    line-height: 2.4rem;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    hyphens: auto;
+    letter-spacing: 0;
+    color: #333;
+    margin-top: .1rem;
+    margin-bottom: 0;
+
+}
+
+.disco{
+font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+font-size: 17px;
+line-height: 1.61rem;
+font-weight: 700;
+line-height: 1.8rem;
+margin: 16px 0 0;
+letter-spacing: 0;
+color: #333;
+}
+
+.dest-btn{
+    width: 13.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.dest-btn:hover{
+    box-shadow: 0px 10px 10px rgb(220, 220, 220);
+}
