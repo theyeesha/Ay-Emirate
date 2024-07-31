@@ -1052,3 +1052,52 @@ color: #333;
     font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
 
 }
+
+
+/*STYLING FOR THE MANAGE PAGE*/
+.manage-hero{
+    
+}
+.manage-list{
+    list-style-type: disc;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.manage-list li{
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+
+}
+.manage-instructions{
+    height: 32.8rem;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 2rem;
+    text-align: left;
+    box-shadow: 10px 10px 10px 10px rgb(220, 220, 220);
+}
+
+.manage-instructions h4{
+    font-size: 1.0rem;
+    margin-bottom: 1.8rem;
+    letter-spacing: -0.2;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+}
+
+.manage-instructions .manage-norm{
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+}
+.manage-span{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: -0.2;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+}
