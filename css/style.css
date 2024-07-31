@@ -857,11 +857,11 @@ color: #333;
 .footer-img{
     width: 90%;
     max-width: 1200px;
-    margin: 0 15rem;
+    margin: 0 15rem ;
     display: flex;
     padding: 2.2rem 0rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 8rem;
     border-bottom: 0.5px solid grey;
 }
 
@@ -887,4 +887,168 @@ color: #333;
     padding: 0rem;
     font-size: 14px;
     font-weight: 510;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ALL THE STYLING FOR THE BOOKING WEBPAGE*/
+
+
+.book-hero{
+    height:180vh;
+    width: 100%;
+}
+.book-hero-text{
+    height: 50vh ;
+    width: 100%;
+    text-align: center;
+    padding: 0rem 30rem;
+}
+.book-hero-text h1{
+    font-size: 3.7rem;
+    letter-spacing: -0.2rem;
+    font-family: "Emirates-Bold", sans-serif;
+    margin-bottom: 1rem;
+}
+.book-special{
+
+}
+.book-hero-text p{
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.book-travel-form{
+    height: 50vh;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 1rem 13rem;
+}
+    
+.book-landing_form{
+    height: 14.3rem;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgb(220, 220, 220);
+    margin-bottom: 9rem;
+
+}
+/* END OF FORM IN LANDING PAGE */
+
+ .book-form_body{
+    display: block;
+    height: 14book-3rem;
+    width: 100%;
+    padding: 1rem; 
+
+ }
+.book-form-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.book-form-link a{
+    color: #d71921;
+}
+ .book-mini_landing{
+    display: block;
+    justify-content: space-between;
+    height: 10rem;
+    width: 100%;
+ }
+
+ .book-from{
+    display: flex;
+    gap: 2%;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+ }
+ .book-to{
+    display: flex;
+    gap: 2%;
+    font-size: 1.2rem;
+    width: 100%;
+
+ }
+ .book-mini_landing input{
+    height: 3.7rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    font-size: 1rem;
+    color: #000;
+ }
+ .book-mini_landing button{
+    height: 3.7rem;
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: 600;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    background: #d71921;
+ }
+ .book-form_body button a{
+    text-decoration: none;
+    color: white;
+ }
+ .book-form_body button a:hover{
+    color: black;
+ }
+ #book-hero button:hover{
+    background-color: rgb(197, 197, 197);
+    color: black; 
+}
+
+.bookin-instructions{
+    height: 14.3rem;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 2rem;
+    text-align: left;
+    box-shadow: 10px 10px 10px 10px rgb(220, 220, 220);
+}
+
+.bookin-instructions h4{
+    font-size: 1.0rem;
+    margin-bottom: 1.8rem;
+    letter-spacing: -0.2;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+}
+.bookin-instructions .book-norm{
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+}
+.book-bold{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: -0.2;
+    color: #000;
+    font-family: HelveticaNeue-Bold, Arial, Lucida Grande, sans-serif;
+
 }
