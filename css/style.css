@@ -1117,5 +1117,56 @@ color: #333;
     height: 10.3rem;
     width: 100%;
     padding: 1rem; 
+ }
+
+ .manage-mini_landing{
+    display: block;
+    justify-content: space-between;
+    height: 10rem;
+    width: 100%;
+ }
+
+ .manage-from{
+    display: flex;
+    gap: 2%;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+ }
+ .manage-to{
+    display: flex;
+    gap: 2%;
+    font-size: 1.2rem;
+    width: 100%;
 
  }
+ .manage-mini_landing input{
+    height: 3.7rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    font-size: 1rem;
+    color: #000;
+ }
+ .manage-mini_landing button{
+    height: 3.7rem;
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: 600;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    background: #d71921;
+ }
+ .manage-form_body button a{
+    text-decoration: none;
+    color: white;
+ }
+ .manage-form_body button a:hover{
+    color: black;
+ }
+ #manage-hero button:hover{
+    background-color: rgb(197, 197, 197);
+    color: black; 
+}
