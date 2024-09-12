@@ -776,7 +776,7 @@ color: #333;
 } 
 @media (max-width:750px) {
     .offers{
-        height: 65vh;
+        height: 75vh;
         width: 100%;
     }
     .special{
@@ -790,12 +790,12 @@ color: #333;
     .offer-p{
         font-size: 13px;
         line-height: 1.1rem;
-        margin-inline: 1.8rem;
+        margin-inline: 1.0rem;
 
     }
     .offer-h{
-        font-size: 29px;
-        line-height: 2.7rem;
+        font-size: 28px;
+        line-height: 2.0rem;
         margin-bottom: 2rem;
     }
 }
@@ -1038,15 +1038,16 @@ color: #333;
 }
 @media (max-width:750px) {
     .about{
-        height: 50vh;
+        height: 165vh;
         padding-inline: 1rem;
     }
     .slide{
-        display: flex;
-        justify-content: space-between;
+        display: block;
         width: 100%;
-        height: 60% ;
-        padding-inline: 1rem;
+        height: 80% ;
+        text-align: center;
+        align-items: center;
+        padding-inline: 25%;
     }
     .about img{
         width: 10rem;
@@ -1055,12 +1056,10 @@ color: #333;
         margin-bottom: 0.5rem;
     }
     .slide-img{
-        height: 100%;
+        height: 13rem;
         width: 10rem;
         display: block;
         text-align: center;
-        align-items: center;
-    
     }
 }
 
@@ -1186,7 +1185,32 @@ color: #333;
     font-weight: 510;
 }
 
-
+@media (max-width:750px) {
+    .footer-img{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 0rem ;
+        display: flex;
+        padding: 1rem 20%;
+        flex-wrap: wrap;
+        gap: 2rem;
+        border-bottom: 0.5px solid grey;
+    }
+    .f-nav {
+        width: 100%;
+        margin: 0rem 0rem;
+        padding: 1rem 0.5rem;
+        line-height: 1.9;
+        color: #fff;
+        font-size: 13px;
+    }
+    .f-nav ul{
+        display: grid;
+        gap: 0rem;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+    }
+}
 
 
 
