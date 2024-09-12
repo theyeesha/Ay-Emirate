@@ -723,7 +723,7 @@ color: #333;
     text-align: center;
     width: 100%;
     height: 70%;
-    }
+}
 
 .special{
     font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -774,8 +774,32 @@ color: #333;
     background-color: #fff;
     border-radius: 5px;
 } 
+@media (max-width:750px) {
+    .offers{
+        height: 65vh;
+        width: 100%;
+    }
+    .special{
+        font-size: 10px;
+        padding-top: 3.7rem;
+        letter-spacing: .0rem;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    
+    .offer-p{
+        font-size: 13px;
+        line-height: 1.1rem;
+        margin-inline: 1.8rem;
 
-
+    }
+    .offer-h{
+        font-size: 29px;
+        line-height: 2.7rem;
+        margin-bottom: 2rem;
+    }
+}
+/* FLYING EXPERIENCE STYLE */
 .flying-exper{
     height: 120vh;
     width: 100%;
@@ -917,7 +941,49 @@ color: #333;
     margin-bottom: 0;
     color: #333;
 }
-
+@media (max-width:750px) {
+    .flying-exper{
+        height: 165vh;
+        padding-inline: 1rem;
+        padding-bottom: 0rem;
+    }
+    .special2{
+        font-size: 10px;
+        margin-bottom: 2rem;
+    }
+    .fly-h{
+        font-size: 29px;
+        line-height: 1.9rem;
+        margin-bottom: 2rem;
+    }
+    .fly-p{
+        font-size: 13.5px;
+        line-height: 1rem;
+        margin-bottom: 3rem;
+    }
+    .grids{
+        width: 100%;
+        height: 122vh;
+        display: block;
+    }
+    .grid1{
+        width: 100%;
+        height: 45%;
+        padding: 1rem 1rem 0rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .grid2{
+        width: 100%;
+        height: 45%;
+        gap: 1.7%;
+    }
+    .grid-h{
+        font-size: 38px;
+        line-height: 2.4rem;
+    }
+    
+}
+/* ABOUT STYLING */
 .about{
     height: 50vh;
     width: 100%;
@@ -950,7 +1016,6 @@ color: #333;
 
     padding-inline: 13rem;
 }
-
 .about img{
     width: 10rem;
     height: 10rem;
@@ -971,12 +1036,38 @@ color: #333;
     font-weight: 600;
     text-decoration: underline;
 }
+@media (max-width:750px) {
+    .about{
+        height: 50vh;
+        padding-inline: 1rem;
+    }
+    .slide{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 60% ;
+        padding-inline: 1rem;
+    }
+    .about img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+    }
+    .slide-img{
+        height: 100%;
+        width: 10rem;
+        display: block;
+        text-align: center;
+        align-items: center;
+    
+    }
+}
 
 
 
 
-
-
+/* FOOTER STYLE */
 .footer {
     background-color: #333333;
     padding: 20px 0;
